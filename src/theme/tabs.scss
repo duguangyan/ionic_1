@@ -1,0 +1,11 @@
+// 扫一扫
+ion-app.cameraView, ion-app.cameraView ion-content, ion-app.cameraView .nav-decor {
+  background: transparent none !important;
+  .tabbar.show-tabbar{
+    opacity: 0;
+  }
+}
+$color-red:#f53d3d;
+// tabs css
+.tabs-md .tab-button[aria-selected=true]{ color:$color-red !important;}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon{ color: $color-red !important;}

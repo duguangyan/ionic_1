@@ -1,0 +1,7 @@
+<ion-tabs #myTabs>
+  <ion-tab [root]="tab1Root" tabTitle="首页" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="分类" tabIcon="md-apps"></ion-tab>
+  <ion-tab (ionSelect)="selectFriend()"  tabTitle="扫一扫" tabIcon="md-qr-scanner"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="采购单" tabIcon="md-basket"></ion-tab>
+  <ion-tab [root]="tab5Root" tabTitle="个人中心" tabIcon="ios-contact"></ion-tab>
+</ion-tabs>

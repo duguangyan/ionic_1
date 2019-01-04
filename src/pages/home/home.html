@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-slides loop="true" autoplay="3000">
+      <ion-slide>
+        <h1>Slide 1</h1>
+        <img src="http://placehold.it/800x300">
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 2</h1>
+        <img src="http://placehold.it/800x300">
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 3</h1>
+        <img src="http://placehold.it/800x300">
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <div (click)="doClick()" class="do-click"> click</div>
+</ion-content>

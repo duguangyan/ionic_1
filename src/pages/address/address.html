@@ -1,0 +1,33 @@
+<!--
+  Generated template for the AddressPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>地址</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-icon name="pin" item-start></ion-icon>
+      <ion-multi-picker item-content [multiPickerColumns]="cityColumns" [(ngModel)]="citydefault"  [cancelText]="'取消'" [doneText]="'完成'"></ion-multi-picker>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-label fixed>地址</ion-label>
+      <ion-input type="text" placeholder="请输入地址" [(ngModel)]="address" (ionFocus)="onFocus()"></ion-input>
+    </ion-item>
+  </ion-list>
+
+
+
+</ion-content>
