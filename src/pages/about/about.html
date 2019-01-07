@@ -1,11 +1,37 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      分类
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <div padding>
+    <ion-searchbar placeholder="搜索"  (ionInput)="getItems($event)"></ion-searchbar>
+  </div>
 
+  <div class="cf about-content">
+    <div class="about-left fl">
+      <div *ngFor="let items of leftNavs; let i = index">
+        <p (click)="navShow(i)">{{items.title}}</p>
+        <ul *ngIf="i == navIndex">
+          <li *ngFor="let item of items.child; let ii = index"  [ngClass]="{'bgc-fff':ii==childIndex}" (click)="childShow(ii)">{{item}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="about-right fl">
+      <div *ngFor="let items of rightDates; let i = index" class="cf">
+        <p><span>— </span> <span> {{items.title}} </span> <span> —</span></p>
+        <ul class="cf">
+          <li class="fl" *ngFor="let item of items.child; let ii = index">
+            <div>
+              <img src="{{item.img}}" />
+            </div>
+            <p class="color-666">{{item.tit}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </ion-content>

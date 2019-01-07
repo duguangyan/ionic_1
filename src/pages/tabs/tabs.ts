@@ -4,6 +4,8 @@ import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { ScanPage } from '../scan/scan';
+import { CenterPage } from "../center/center";
+
 import { NavController } from "ionic-angular";
 
 @Component({
@@ -15,7 +17,7 @@ export class TabsPage {
   tab2Root = AboutPage;
   tab3Root = ScanPage;
   tab4Root = ContactPage;
-  tab5Root = ContactPage;
+  tab5Root = CenterPage;
 
   constructor(public navCtrl: NavController) {
 

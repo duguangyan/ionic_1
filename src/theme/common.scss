@@ -1,0 +1,106 @@
+//body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,dl, dt, dd, ul, ol, li,pre,fieldset,
+//button, input, textarea,iframe,th, td,img{margin: 0;padding: 0;border: 0 none;font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;font-size: 14px;}
+//img{vertical-align: top;border: 0 none;}
+//html,body{min-width:1240px;}
+//.cf{*zoom:1;}
+//.cf:after, .cf:before{content:".";height:0;clear:both;visibility:hidden;display:block;}
+//.fl{float: left;}
+//.fr{float: right;}
+//table{ border-collapse:collapse; border-spacing:0; }
+//input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: #999;}
+//input:-moz-placeholder, textarea:-moz-placeholder {color:#999;}
+//input::-moz-placeholder, textarea::-moz-placeholder {color:#999;}
+//input:-ms-input-placeholder, textarea:-ms-input-placeholder {color:#999;}
+//button,input,optgroup,select,textarea {outline: 0;box-sizing: content-box}
+//address, cite, dfn, em, var,i{ font-style: normal; }
+//small { font-size: 12px; }
+ul, ol,li{ list-style: none; }
+//abbr[title], acronym[title] {border-bottom: 1px dotted;cursor: help;}
+//q:before, q:after { content: ''; }
+//legend { color: #000; }
+//fieldset, img { border: none; vertical-align:top}
+//button, input, select, textarea {font-size: 100%;}
+//table {border-collapse: collapse;border-spacing: 0;}
+//hr {border: none;height: 1px;}
+//html { overflow-y: scroll; }
+
+html{
+  font-size: 100px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.cf{*zoom:1;}
+.cf:after, .cf:before{content:".";height:0;clear:both;visibility:hidden;display:block;}
+.fl{float: left;}
+.fr{float: right;}
+
+.flex{
+  display: flex;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-2{
+  flex: 2;
+}
+.fs12{
+  font-size: 12px;
+}
+.fs10{
+  font-size: 10px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs16{
+  font-size: 16px;
+}
+.fs18{
+  font-size: 18px;
+}
+.fs20{
+  font-size: 20px;
+}
+.fs24{
+  font-size: 24px;
+}
+.fs26{
+  font-size: 26px;
+}
+.fs28{
+  font-size: 28px;
+}
+.color-000{
+  color: #000;
+}
+.color-333{
+  color: #333;
+}
+.color-666{
+  color: #666;
+}
+.color-999{
+  color: #999;
+}
+.bgc-000{
+  background-color: #000;
+}
+.bgc-333{
+  background-color: #333;
+}
+.bgc-666{
+  background-color: #666;
+}
+.bgc-999{
+  background-color: #999;
+}
+.bgc-fff{
+  background-color: #fff;
+}
+
+
+
+
+

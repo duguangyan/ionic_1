@@ -1,3 +1,115 @@
 page-home {
+  ion-slide{
+    position: relative;
+    h1{
+      position: absolute;
+      top: 0;
+    }
+  }
+  .home-banner ul{
+    padding: 0;
+    li{
+      text-align: center;
+      width: 25%;
+      img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+      p{
+        line-height: 2px;
+      }
+    }
+  }
+  .home-shop ul{
+    padding: 0;
+    li{
+      .home-shop-title{
+        height: 40px;
+        text-align: center;
+        background-color: #eee;
+        color: #333;
+        line-height: 40px;
+      }
+      .home-goods-1{
+        border-radius: 5%;
+        overflow: hidden;
+      }
+      .home-goods-2 div {
+        border-radius: 5%;
+        margin-top: 2%;
+        overflow: hidden;
+        img{
+          width: 100%;
+          border-radius: 5%;
+        }
+      }
+      .home-goods-2 div:last-child{
+        margin-left: 2%;
+      }
+    }
+  }
+  .home-footer{
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    background-color: #eee;
+  }
 
+  .home-rec{
+    .home-rec-title{
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background-color: #eee;
+      color: #333;
+    }
+    ul{
+      background-color: #eee;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      li{
+        width:48%;
+        float: left;
+        border-radius: 5%;
+        background-color:#fff;
+        margin-bottom: 4%;
+        &:nth-child(even){
+          margin-left: 4%;
+        }
+
+        .span-1{
+          display: inline-block;
+          background-color: orange;
+          text-align: center;
+          line-height: 14px;
+          border-radius: 2px;
+          padding: 5px;
+          color: #fff;
+          margin-left: 5px;
+        }
+        .span-2{
+          color: #488aff;
+        }
+        .span-3{
+          font-size: 12px;
+          margin-left: 5px;
+          color: red;
+        }
+        .span-4,.span-5{
+          font-size: 16px;
+          color: red;
+        }
+        .span-6{
+          font-size: 12px;
+        }
+        .span-7{
+          color: red;
+        }
+      }
+    }
+  }
 }

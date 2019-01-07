@@ -11,7 +11,7 @@ import { ScanPage } from '../pages/scan/scan';
 import { AddressPage } from '../pages/address/address';
 import { AddressCreatePage } from '../pages/address-create/address-create';
 import { MapPageModule } from "../pages/map/map.module";
-
+import { CenterPageModule } from "../pages/center/center.module";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -33,6 +33,7 @@ import { MultiPickerModule } from'ion-multi-picker';
   imports: [
     BrowserModule,
     MapPageModule,
+    CenterPageModule,
     MultiPickerModule,
     IonicModule.forRoot(MyApp,{backButtonText:' '}),
   ],

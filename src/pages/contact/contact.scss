@@ -1,3 +1,113 @@
 page-contact {
+  .header-bar-tit{
+     margin-right: 20px;
+  }
+  .contact{
+    .contact-li{
+      ul{
 
+        li{
+          .checkbox{
+            width: 10%;
+            float: left;
+            ion-checkbox{
+              position: relative;
+              left: 32%;
+              top: 36px;
+            }
+          }
+          .footer{
+            color: red;
+            text-align: right;
+            margin-top: 10px;
+            margin-right: 20px;
+          }
+          .check-content{
+
+            width: 85%;
+            float: left;
+            .check-img{
+              width: 30%;
+              height: 100px;
+              overflow: hidden;
+              float: left;
+              ion-img{
+                width: 100%;
+              }
+            }
+            .check-p{
+              float: left;
+              margin-left: 5%;
+              width: 65%;
+              position: relative;
+              margin-bottom: 5px;
+              .add{
+                height: 20px;
+                width: 78px;
+                border: 1px solid #eee;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                border-radius: 5px;
+                overflow: hidden;
+                input{
+                  width: 36px;
+                  border: none;
+                  border-left: 1px solid #eee;
+                  border-right: 1px solid #eee;
+                  text-align: center;
+                  position: relative;
+                  top: -2px;
+                }
+                span{
+                  display: inline-block;
+                  width: 20px;
+                  text-align: center;
+                  line-height: 20px;
+                  font-size: 18px;
+                }
+              }
+              p{
+                margin: 0;
+                padding: 0;
+                font-size: 12px;
+              }
+              .div-p-1{
+                font-size: 14px;
+                margin: 0;
+                padding: 0;
+                height: 60px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
+              }
+              .div-p-3{
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+      }
+      >div{
+        ion-checkbox{
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+        span{
+          position: relative;
+          top: -4px;
+          font-size: 16px;
+          margin-left: 5px;
+          color: #333;
+        }
+        ion-icon{
+          position: relative;
+          top: 14px;
+          float: right;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
 }

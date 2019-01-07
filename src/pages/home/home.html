@@ -1,25 +1,96 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>首页</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <div>
-    <ion-slides loop="true" autoplay="3000">
+    <ion-slides loop="true" autoplay="3000" pager="true">
       <ion-slide>
-        <h1>Slide 1</h1>
-        <img src="http://placehold.it/800x300">
+        <!--<h1>Slide 1</h1>-->
+        <img src="https://s18.mogucdn.com/mlcdn/c45406/181101_20l22ch22kacd0e57dfik9i5gkec9_750x300.jpg_999x999.v1c0.webp">
       </ion-slide>
       <ion-slide>
-        <h1>Slide 2</h1>
-        <img src="http://placehold.it/800x300">
+        <img src="https://s17.mogucdn.com/mlcdn/c45406/190104_5j3g838k48b7h9d0kjc66aj52j9ik_750x300.jpg_999x999.v1c0.webp">
       </ion-slide>
       <ion-slide>
-        <h1>Slide 3</h1>
-        <img src="http://placehold.it/800x300">
+
+        <img src="https://s11.mogucdn.com/mlcdn/c45406/181229_0467e7ad170kdkalic29i9deggd52_750x300.jpg_999x999.v1c0.webp">
       </ion-slide>
     </ion-slides>
   </div>
-  <div (click)="doClick()" class="do-click"> click</div>
+  <div class="home-banner">
+    <ul class="cf">
+      <li class="fl">
+        <img src="https://s10.mogucdn.com/mlcdn/c45406/190102_31jkifi3592ahi36476jeiege38ka_150x150.png_640x640.v1cAC.40.webp">
+        <p>联营门店</p>
+      </li>
+      <li class="fl">
+        <img src="https://s10.mogucdn.com/mlcdn/c45406/181203_55i2jlcbekj8c3fedf5e61kfj80bk_135x135.png_640x640.v1cAC.40.webp">
+        <p>采集服务</p>
+      </li>
+      <li class="fl">
+        <img src="https://s10.mogucdn.com/mlcdn/c45406/181122_220dja64jidi7lbhb01d1ce021b58_150x150.png_640x640.v1cAC.40.webp">
+        <p>超值团购</p>
+      </li>
+      <li class="fl">
+        <img src="https://s10.mogucdn.com/mlcdn/c45406/181203_6gcd355ejjbbi8l76800e1gb117id_135x135.png_640x640.v1cAC.40.webp">
+        <p>直采中心</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="home-shop">
+    <ul>
+      <li>
+        <div class="home-shop-title">辅料</div>
+        <div padding>
+          <div class="home-goods-1">
+            <img src="https://s2.mogucdn.com/mlcdn/c45406/190104_80g0d966a70e52ik0cb74gfgak752_750x300.jpg_999x999.v1c0.webp">
+          </div>
+          <div class="home-goods-2 flex">
+            <div class="flex-1">
+              <img src="https://s11.mogucdn.com/mlcdn/c45406/180819_4e2kalg698jcj177lbba138hki824_640x960.jpg_600x800.v1cAC.40.webp">
+            </div>
+            <div class="flex-1">
+              <img src="https://s11.mogucdn.com/mlcdn/c45406/181223_33ebh75db5e9c144lge7ibgfj4lg6_640x960.jpg_600x800.v1cAC.40.webp">
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="home-rec">
+    <div class="home-rec-title">推荐</div>
+    <ul padding class="cf">
+      <li>
+        <p><span class="span-1">团购</span> <span class="span-2">衣服</span></p>
+        <p><span class="span-3">￥</span><span class="span-4">28.00</span> <span class="span-7">~~</span> <span class="span-5">30.00</span> <span class="span-6">/码</span></p>
+      </li>
+      <li>
+        <p><span class="span-1">团购</span> <span class="span-2">衣服</span></p>
+        <p><span class="span-3">￥</span><span class="span-4">28.00</span> <span class="span-7">~~</span> <span class="span-5">30.00</span> <span class="span-6">/码</span></p>
+      </li>
+      <li>
+        <p><span class="span-1">团购</span> <span class="span-2">衣服</span></p>
+        <p><span class="span-3">￥</span><span class="span-4">28.00</span> <span class="span-7">~~</span> <span class="span-5">30.00</span> <span class="span-6">/码</span></p>
+      </li>
+      <li>
+        <p><span class="span-1">团购</span> <span class="span-2">衣服</span></p>
+        <p><span class="span-3">￥</span><span class="span-4">28.00</span> <span class="span-7">~~</span> <span class="span-5">30.00</span> <span class="span-6">/码</span></p>
+      </li>
+      <li>
+        <p><span class="span-1">团购</span> <span class="span-2">衣服</span></p>
+        <p><span class="span-3">￥</span><span class="span-4">28.00</span> <span class="span-7">~~</span> <span class="span-5">30.00</span> <span class="span-6">/码</span></p>
+      </li>
+    </ul>
+
+    <div class="home-footer">
+      没有更多内容了
+    </div>
+  </div>
+
+
 </ion-content>

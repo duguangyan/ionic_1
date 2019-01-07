@@ -9,3 +9,10 @@ $color-red:#f53d3d;
 // tabs css
 .tabs-md .tab-button[aria-selected=true]{ color:$color-red !important;}
 .tabs-md .tab-button[aria-selected=true] .tab-button-icon{ color: $color-red !important;}
+
+//搜索栏
+.searchbar-ios{
+  border: 1px solid #e2e2e2 !important;
+  border-radius: 10px !important;
+  background: #fff !important;
+}
